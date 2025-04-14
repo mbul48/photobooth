@@ -8,7 +8,6 @@ A React-based web application for creating photo strips with various effects and
 - Upload existing photos
 - Apply different visual effects
 - Choose from various photo shapes
-- Support for multiple languages
 - Download your photo strips
 
 ## Installation
