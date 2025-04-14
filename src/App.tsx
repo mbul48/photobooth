@@ -24,8 +24,8 @@ type Language = {
 
 const languages: Language[] = [
   { name: 'English', text: 'photobooth' },
-  { name: '한국어', text: '포토부스' },
-  { name: '日本語', text: 'フォトブース' },
+  { name: 'Korean', text: '포토부스' },
+  { name: 'Japanese', text: 'フォトブース' },
 ];
 
 const effects: Effect[] = [
@@ -523,7 +523,7 @@ function App() {
             <div>
               <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
                 <Type className="w-5 h-5" />
-                Language
+                Text Language
               </h3>
               <div className="flex gap-3 flex-wrap">
                 {languages.map((lang) => (
